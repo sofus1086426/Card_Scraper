@@ -4,10 +4,10 @@ import requests
 
 
 # url for scraping 
-url = "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists"
+url = ""
 
 
-target = "deckbox_link"
+target = ""
 # respons from web 
 res = requests.get(url)
 #pass the html and store it as a variable
